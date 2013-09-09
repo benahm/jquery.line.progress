@@ -1,4 +1,4 @@
-line.progress
+JQuery.line.progress
 =============
 
 Loading line progress
