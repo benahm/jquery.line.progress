@@ -50,8 +50,3 @@
 })();
 $.line= new Line();
 })(jQuery);
-
-$(document).ready(function () {
-    $.line.progress({
-    });
-});
