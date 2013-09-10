@@ -98,7 +98,7 @@
         return NProgress.inc(Math.random() * Settings.trickleRate)
     };
     NProgress.render = function (fromStart) {
-        if (NProgress.isRendered()) return $("#nprogress");
+        if (NProgress.isRendered()) return $("#line-progress");
         $('html').addClass('line-progress-busy');
         var $el = $("<div id='line-progress'>").html(Settings.template);
         var perc = fromStart ? '-100' : toBarPerc(NProgress.status || 0);
