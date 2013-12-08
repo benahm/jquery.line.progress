@@ -1,4 +1,4 @@
-JQuery.line.progress
+jquery.line.progress
 =============
 
 Add a line progress to your website 
